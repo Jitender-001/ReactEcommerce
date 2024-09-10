@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.shop{
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.shop h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #232323;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.shop p{
+    margin-top: 5px;
+    color: #8a8a8a;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.shop .container{
+    max-width: 100%;
+    display: flex;
+}
+
+.shop .container .left-box{
+    width: 25%;
+}
+
+.shop .container .left-box .category{
+    border: 3px solid #f6f6f6;
+    width: 250px;
+    padding: 10px 20px;
+}
+
+.shop .container .left-box .category .header{
+    max-width: 100%;
+    padding: 10px 20px;
+    background: #f6f6f6;
+}
+
+.shop.container .left-box .category .header h3{
+    font-size: 16px;
+    color: #232323;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.shop .container .left-box .category .box{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.shop .container .left-box .category .box ul {
+    max-width: 100%;
+}
+
+.shop .container .left-box .category .box ul li{
+    list-style: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.shop .container .left-box .category .box ul li:hover{
+    color: #232323;
+}
+
+.shop .container .left-box .banner{
+    margin-top: 20px;
+    width: 250px;
+}
+
+.shop .container .left-box .banner .img-box{
+    width: 250px;
+}
+
+.shop .container .left-box .banner .img-box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.shop .container .right-box{
+    width:74%;
+}
+
+.shop .container .right-box .banner{
+    max-width: 100%;
+}
+
+.shop .container .right-box .banner .img-box{
+    width: 100%;
+    object-fit: cover;
+}
+
+.shop .container .right-box .banner .img-box img{
+    width: 100%;
+    height: 220px;
+}
+
+.shop .container .right-box .product-box{
+    max-width: 100%;
+    padding: 10px 5px;
+}
+
+.shop .container .right-box .product-box h2{
+    color: #232323;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.shop .container .right-box .product-box .product-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: ; */
+}
+
+.shop .container .right-box .product-box .product-container .box{
+    width: 320px;
+    height: 370px;
+    overflow: hidden;
+    border: 2px solid #f6f6f6;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.shop .container .right-box .product-box .product-container .box .img-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid green;
+
+}
+
+.shop .container .right-box .product-box .product-container .box .img-box img{
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid red;
+}
+
+.shop .container .right-box .product-box .product-container .box .img-box .icons{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.shop .container .right-box .product-box .product-container .box .img-box .icons li{
+    list-style: none;
+    border: 2px silid #f6f6f6;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #8a8a8a;
+}
+
+.shop .container .right-box .product-box .product-container .box .details{
+
+    margin-top: -120px;
+    margin-left: 30px;
+}
+
+.shop .container .right-box .product-box .product-container .box .details h3{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #232323;
+}
+
+.shop .container .right-box .product-box .product-container .box .details button{
+    /* margin-left: 90px; */
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background: #236e99;
+    width:  90px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #f6f6f6;
+    transition: 0.5s;
+}
+
+.shop .container .right-box .product-box .product-container .box .details button:hover{
+    color: #232323;
+    background-color: #e830eeef;
+}
+
+.cartBtn{
+    display: flex;
+    gap: 4rem;
+    /* border: 1px solid red; */
+}
